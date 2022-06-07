@@ -175,13 +175,20 @@ footer {
     height: auto;
   }
 
-  .intro__presentacion__articulo__descripcion {
-    width: 60%;
-    font-size: 2em;
-  }
+ 
   body {
     background-image: url("../multimedia/img/dinobackgroundmobile.jpg");
      background-size:cover;
+  }
+  main{
+    background: none!important;
+  }
+  .intro__parrafo{
+    font-size: 1.5rem;
+  }
+  .intro__presentacion__articulo__descripcion {
+    width: 60%;
+    font-size: 1.5rem;
   }
   .intro__presentacion__articulo_img {
     width: 60%;
@@ -191,9 +198,7 @@ footer {
 
 
 @media screen and (max-width: 480px) {
-  .titulo {
-    font-size: 2rem;
-  }
+  
   .intro__presentacion__articulo {
     flex-direction: column;
   }
