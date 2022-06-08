@@ -68,6 +68,7 @@ a:visited {
   margin-top: 10rem;
   width: 80%;
   background-color: rgba(95, 158, 160, 0.514);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.514), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .intro__parrafo {
@@ -95,6 +96,7 @@ a:visited {
   width: 60%;
   font-size: 2em;
   
+  
 }
 .derecho{
   padding-left: 1rem;
@@ -107,6 +109,7 @@ a:visited {
 .intro__presentacion__articulo_img {
   width: 100%;
   height: auto;
+  
 }
 .descripcion {
   display: flex;
@@ -133,7 +136,8 @@ a:visited {
 
 .descripcion__cuadro__img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.514), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-  filter: grayscale();
+ 
+  filter:invert();
   transition: all 1s;
   width: 100%; /* con esto las imagenes son responsive, se achican al achicar el sitio*/
   max-width: 35rem;
@@ -182,6 +186,7 @@ footer {
   }
   main{
     background: none!important;
+    box-shadow: none!important;
   }
   .intro__parrafo{
     font-size: 1.5rem;
@@ -205,5 +210,11 @@ footer {
   .intro__presentacion__articulo__vl {
     height: 2px;
     width: auto;
+  }
+  main{
+    width: 60%;
+  }
+  .titulo{
+    font-size: 3rem;
   }
 }
