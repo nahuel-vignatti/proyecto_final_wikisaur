@@ -1,220 +1,163 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
 @font-face {
   font-family: dinofont;
-  src: url("../fonts/dinofont.ttf");
-}
+  src: url("../fonts/dinofont.ttf"); }
+
 * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
+
 html {
-  font-size: 62.5%;
-}
+  font-size: 62.5%; }
 
 body {
   min-height: 100vh;
- /* background-image: url("../multimedia/img/background1.jpg");*/
- background-image: url("../multimedia/img/dinobackgroundlong.jpg");
-  background-size:cover;
-}
+  background-image: url("../multimedia/img/dinobackgroundlong.jpg");
+  background-size: cover; }
+
+.intro {
+  margin-top: 10rem;
+  width: 80%;
+  background-color: rgba(95, 158, 160, 0.514);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.514), 0 6px 20px 0 rgba(0, 0, 0, 0.5); }
+  .intro .intro__parrafo {
+    margin-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1rem;
+    font-size: 2rem;
+    margin-bottom: 10rem;
+    text-align: center;
+    align-content: center; }
+  .intro__presentacion__articulo {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-bottom: 3rem;
+    gap: 4rem;
+    justify-content: center; }
+    .intro__presentacion__articulo__descripcion {
+      width: 60%;
+      font-size: 2em; }
+    .intro__presentacion__articulo_img {
+      width: 100%;
+      height: auto; }
+
+.descripcion {
+  display: flex;
+  flex-direction: column; }
+  .descripcion__parrafo {
+    margin-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1rem;
+    font-size: 1.6rem; }
+  .descripcion__cuadro {
+    padding: 2rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    gap: 2rem;
+    justify-content: space-around; }
+    .descripcion__cuadro__img {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.514), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+      filter: grayscale();
+      transition: all 1s;
+      width: 100%;
+      /* con esto las imagenes son responsive, se achican al achicar el sitio*/
+      max-width: 35rem;
+      height: auto; }
+
+.titulo {
+  font-family: "Quicksand", sans-serif;
+  font-size: 6rem;
+  margin: 2rem 0;
+  color: #135248;
+  text-align: center; }
+
+.descripcion__cuadro__img:hover {
+  filter: none; }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 5rem;
-  background-color: rgba(95, 158, 160, 0.514);
-}
+  background-color: rgba(95, 158, 160, 0.514); }
+
 .logo_sitio {
   display: none;
   animation-duration: 1s;
   animation-name: aparecer;
   animation-iteration-count: 6;
-  animation-direction: alternate;
-}
+  animation-direction: alternate; }
+
 @keyframes aparecer {
   0% {
-    opacity: 1;
-  }
+    opacity: 1; }
   25% {
-    opacity: 0.75;
-  }
+    opacity: 0.75; }
   50% {
-    opacity: 0.5;
-  }
+    opacity: 0.5; }
   75% {
-    opacity: 0.25;
-  }
+    opacity: 0.25; }
   100% {
-    opacity: 0;
-  }
-}
+    opacity: 0; } }
+
 nav div ul li a {
-  font-family: dinofont;
-   
-}
+  font-family: dinofont; }
+
 nav div ul li {
-  text-align: center;
-}
-
-
+  text-align: center; }
 
 a:link,
 a:visited {
-  text-decoration: none;
-}
-
-.intro {
-  margin-top: 10rem;
-  width: 80%;
-  background-color: rgba(95, 158, 160, 0.514);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.514), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-}
-
-.intro__parrafo {
-  margin-top: 1rem;
-  
-  font-family: Arial, Helvetica, sans-serif;
-  padding-left: 1rem;
-  font-size: 2rem;
-  margin-bottom: 10rem;
-  text-align: center;
-  align-content: center;
-}
-
-.intro__presentacion__articulo {
-  display: flex;
-  flex-direction: row;
-  width: 80%;
-  margin-bottom: 3rem;
-  gap: 4rem;
-  justify-content: center;
-
-}
-
-.intro__presentacion__articulo__descripcion {
-  width: 60%;
-  font-size: 2em;
-  
-  
-}
-.derecho{
-  padding-left: 1rem;
-  border-left: solid rgba(0, 0, 0, 0.3) 4px;
-}
-.izquierdo{
-  padding-right: 1rem;
-  border-right: solid rgba(0, 0, 0, 0.3) 4px;
-}
-.intro__presentacion__articulo_img {
-  width: 100%;
-  height: auto;
-  
-}
-.descripcion {
-  display: flex;
-  flex-direction: column;
-}
-
-.descripcion__parrafo {
-  margin-top: 1rem;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-left: 1rem;
-  font-size: 1.6rem;
-}
-
-.descripcion__cuadro {
-  padding: 2rem;
-  margin-left: 1rem;
-  border-radius: 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  height: auto;
-  gap: 2rem;
-  justify-content: space-around;
-}
-
-.descripcion__cuadro__img {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.514), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
- 
-  filter:invert();
-  transition: all 1s;
-  width: 100%; /* con esto las imagenes son responsive, se achican al achicar el sitio*/
-  max-width: 35rem;
-  height: auto;
-}
-.descripcion__cuadro__img:hover {
-  filter: none;
-}
-
-/*-------------------------------------------------------------------------------------*/
-
-.titulo {
-  font-family: "Quicksand", sans-serif;
-  font-size: 6rem;
-  margin: 2rem 0;
-  color: rgb(19, 82, 72);
-  text-align: center;
-}
-/*seccion de los videos*/
-.peliculas {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  text-decoration: none; }
 
 footer {
   margin-top: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
-}
+  padding: 1rem; }
 
+.derecho {
+  padding-left: 1rem;
+  border-left: solid rgba(0, 0, 0, 0.3) 4px; }
+
+.izquierdo {
+  padding-right: 1rem;
+  border-right: solid rgba(0, 0, 0, 0.3) 4px; }
+
+.peliculas {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 @media screen and (max-width: 950px) {
   /*esto solo lo hago por los videos */
   .peliculas__video {
     width: auto;
-    height: auto;
-  }
-
- 
+    height: auto; }
   body {
     background-image: url("../multimedia/img/dinobackgroundmobile.jpg");
-     background-size:cover;
-  }
-  main{
-    background: none!important;
-    box-shadow: none!important;
-  }
-  .intro__parrafo{
-    font-size: 1.5rem;
-  }
+    background-size: cover; }
+  main {
+    background: none !important;
+    box-shadow: none !important; }
+  .intro__parrafo {
+    font-size: 1.5rem; }
   .intro__presentacion__articulo__descripcion {
     width: 60%;
-    font-size: 1.5rem;
-  }
+    font-size: 1.5rem; }
   .intro__presentacion__articulo_img {
     width: 60%;
-    height: auto;
-  }
-}
-
+    height: auto; } }
 
 @media screen and (max-width: 480px) {
-  
   .intro__presentacion__articulo {
-    flex-direction: column;
-  }
-  .intro__presentacion__articulo__vl {
-    height: 2px;
-    width: auto;
-  }
-  main{
-    width: 60%;
-  }
-  .titulo{
-    font-size: 3rem;
-  }
-}
+    flex-direction: column; }
+  main {
+    width: 60%; }
+  .titulo {
+    font-size: 3rem; } }

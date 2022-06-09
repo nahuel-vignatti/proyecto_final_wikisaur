@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    background-color: rgba(95, 158, 160, 0.514);
+  }
+  .logo_sitio {
+    display: none;
+    animation-duration: 1s;
+    animation-name: aparecer;
+    animation-iteration-count: 6;
+    animation-direction: alternate;
+  }
+  @keyframes aparecer {
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0.75;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    75% {
+      opacity: 0.25;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  nav div ul li a {
+    font-family: dinofont;
+     
+  }
+  nav div ul li {
+    text-align: center;
+  }
+  
+  
+  
+  a:link,
+  a:visited {
+    text-decoration: none;
+  }
+  
