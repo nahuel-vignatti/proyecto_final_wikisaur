@@ -17,7 +17,7 @@ body {
   width: 80%;
   background-color: rgba(95, 158, 160, 0.514);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.514), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-  .intro__parrafo {
+  &__parrafo {
     margin-top: 1rem;
 
     font-family: Arial, Helvetica, sans-serif;
@@ -67,7 +67,6 @@ body {
     &__img {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.514),
         0 6px 20px 0 rgba(0, 0, 0, 0.5);
-      filter: grayscale();
       transition: all 1s;
       width: 100%; /* con esto las imagenes son responsive, se achican al achicar el sitio*/
       max-width: 35rem;
