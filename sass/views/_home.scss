@@ -6,3 +6,6 @@
     padding-right: 1rem;
     border-right: solid rgba(0, 0, 0, 0.3) 4px;
   }
+  .intro__titulohome{
+    @extend .titulos_estilo;
+  }

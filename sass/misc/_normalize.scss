@@ -15,7 +15,7 @@ body {
 .intro {
   margin-top: 10rem;
   width: 80%;
-  background-color: rgba(95, 158, 160, 0.514);
+  background-color: map-get($estilos , colorfondo );
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.514), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
   &__parrafo {
     margin-top: 1rem;
@@ -29,8 +29,7 @@ body {
   }
 
   &__presentacion__articulo {
-    display: flex;
-    flex-direction: row;
+    @include flexi(flex,row);
     width: 80%;
     margin-bottom: 3rem;
     gap: 4rem;
@@ -47,8 +46,7 @@ body {
   }
 }
 .descripcion {
-  display: flex;
-  flex-direction: column;
+  @include flexi(flex,column);
   &__parrafo {
     margin-top: 1rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -59,7 +57,7 @@ body {
     padding: 2rem;
     margin-left: 1rem;
     border-radius: 1rem;
-    display: flex;
+    @include flexi(flex,row);
     flex-wrap: wrap;
     height: auto;
     gap: 2rem;
@@ -73,11 +71,4 @@ body {
       height: auto;
     }
   }
-}
-.titulo {
-  font-family: "Quicksand", sans-serif;
-  font-size: 6rem;
-  margin: 2rem 0;
-  color: rgb(19, 82, 72);
-  text-align: center;
 }

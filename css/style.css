@@ -3,6 +3,13 @@
   font-family: dinofont;
   src: url("../fonts/dinofont.ttf"); }
 
+.titulos_estilo, .intro__titulodinosaurs, .intro__titulohistory, .intro__titulohome, .intro__titulopaleontology, .intro__tituloscifi {
+  font-family: "Quicksand", sans-serif;
+  font-size: 6rem;
+  margin: 2rem 0;
+  color: #135248;
+  text-align: center; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -55,6 +62,7 @@ body {
     margin-left: 1rem;
     border-radius: 1rem;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     height: auto;
     gap: 2rem;
@@ -66,13 +74,6 @@ body {
       /* con esto las imagenes son responsive, se achican al achicar el sitio*/
       max-width: 35rem;
       height: auto; }
-
-.titulo {
-  font-family: "Quicksand", sans-serif;
-  font-size: 6rem;
-  margin: 2rem 0;
-  color: #135248;
-  text-align: center; }
 
 .descripcion__cuadro__img:hover {
   filter: none; }

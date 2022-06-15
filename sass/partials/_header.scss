@@ -3,7 +3,7 @@ header {
     justify-content: space-between;
     align-items: center;
     gap: 5rem;
-    background-color: rgba(95, 158, 160, 0.514);
+    background-color: map-get($estilos , colorfondo );
   }
   .logo_sitio {
     display: none;
