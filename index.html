@@ -4,8 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Wikisaur Home, sitio completamente dedicado a los dinosaurios, encontraras su historia, tipos de dinosaurios, paleontologia y peliculas.">  
-    <meta name="keywords" content="WIKI, DINOSAURIOS, DINOSAUR, WIKIPEDIA, JURASSIC, PARK, PREHISTORICO, PREHISTORIC, REX, TRICERATOPS, PALEONTOLOGIA, PELICULAS">  
+    <meta
+      name="description"
+      content="Wikisaur Home, sitio completamente dedicado a los dinosaurios, encontraras su historia, tipos de dinosaurios, paleontologia y peliculas."
+    />
+    <meta
+      name="keywords"
+      content="WIKI, DINOSAURIOS, DINOSAUR, WIKIPEDIA, JURASSIC, PARK, PREHISTORICO, PREHISTORIC, REX, TRICERATOPS, PALEONTOLOGIA, PELICULAS"
+    />
     <link rel="icon" href="./multimedia/img/logosmall.png" />
     <link rel="stylesheet" href="./css/style.css" />
     <link
@@ -19,55 +25,68 @@
     <title>Wikisaur | Home</title>
   </head>
   <body>
-    <header class="flex-column flex-sm-row justify-content-end">
-      <img
-        src="./multimedia/img/logosmall.png"
-        alt="logo wikisaur"
-        class="logo_sitio"
-      />
-      <nav class="navbar navbar-expand-sm">
-        <div class="container-fluid">
+    <header class="flex-sm-row justify-content-center">
+      <nav class="navbar justify-content-center">
+        <ul class="navbar-nav gap-5 flex-row">
+          <li class="nav-item">
+            <a class="nav-link fs-2" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-2" href="./views/history.html">Historia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-2" href="./views/dinosaurs.html"
+              >Dinosaurios</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-2" href="./views/paleontology.html"
+              >Paleontologia</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-2" href="./views/scifi.html"
+              >Ciencia Ficcion</a
+            >
+          </li>
+        </ul>
+
+        <div class="dropdown-center">
           <button
-            class="navbar-toggler"
+            class="btn btn-secondary dropdown-toggle fs-3"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#collapsibleNavbar"
-            aria-controls="navbarNav"
+            id="dropdownCenterBtn"
+            data-bs-toggle="dropdown"
             aria-expanded="false"
-            aria-label="Tooggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+              Menu
           </button>
-          <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav gap-3">
-              <li class="nav-item">
-                <a class="nav-link fs-2" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-2" href="./views/history.html"
-                  >Historia</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-2" href="./views/dinosaurs.html"
-                  >Dinosaurios</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-2" href="./views/paleontology.html"
-                  >Paleontologia</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-2" href="./views/scifi.html"
-                  >Ciencia Ficcion</a
-                >
-              </li>
-            </ul>
-          </div>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownCenterBtn">
+            <li>
+              <a class="dropdown-item fs-2" href="./index.html">
+                Home</a>
+            </li>
+            <li>
+              <a class="dropdown-item fs-2" href="./views/history.html">
+                Historia</a>
+            </li>
+            <li>
+              <a class="dropdown-item fs-2" href="./views/dinosaurs.html">
+                Dinosaurios</a>
+            </li>
+            <li>
+              <a class="dropdown-item fs-2" href="./views/paleontology.html">
+                Paleontologia</a>
+            </li>
+            <li>
+              <a class="dropdown-item fs-2" href="./views/scifi.html"
+                >Ciencia Ficcion</a>
+            </li>
+          </ul>
         </div>
       </nav>
     </header>
+
     <main class="intro container justify-content-center pb-5">
       <h2 class="intro__titulohome">Wikisaur</h2>
       <p class="intro__parrafo">
@@ -93,14 +112,13 @@
         class="intro__presentacion container justify-content-center align-items-center"
       >
         <article
-          class="intro__presentacion__articulo container flex-column flex-lg-row 
-          justify-content-center align-items-center"
+          class="intro__presentacion__articulo container flex-column flex-lg-row justify-content-center align-items-center"
         >
           <img
             src="./multimedia/img/dinob1.png"
             alt=""
             class="intro__presentacion__articulo_img"
-            data-aos="fade-right"            
+            data-aos="fade-right"
           />
           <p class="intro__presentacion__articulo__descripcion derecho">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa,
@@ -108,11 +126,9 @@
             distinctio odio voluptates, maiores impedit esse illum aperiam hic
             eum quis quidem, incidunt fuga quam!
           </p>
-          
         </article>
         <article
-          class="intro__presentacion__articulo container flex-column flex-column-reverse flex-lg-row 
-          justify-content-center align-items-center"
+          class="intro__presentacion__articulo container flex-column flex-column-reverse flex-lg-row justify-content-center align-items-center"
         >
           <p class="intro__presentacion__articulo__descripcion izquierdo">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa,
@@ -120,7 +136,7 @@
             distinctio odio voluptates, maiores impedit esse illum aperiam hic
             eum quis quidem, incidunt fuga quam!
           </p>
-          
+
           <img
             src="./multimedia/img/dinob4s.png"
             alt=""
@@ -129,8 +145,7 @@
           />
         </article>
         <article
-          class="intro__presentacion__articulo container flex-column flex-lg-row 
-          justify-content-center align-items-center"
+          class="intro__presentacion__articulo container flex-column flex-lg-row justify-content-center align-items-center"
         >
           <img
             src="./multimedia/img/dinob3.png"
@@ -138,7 +153,7 @@
             class="intro__presentacion__articulo_img"
             data-aos="fade-right"
           />
-          
+
           <p class="intro__presentacion__articulo__descripcion derecho">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa,
             voluptatibus. Minima, iste architecto? Pariatur repellendus
@@ -147,8 +162,7 @@
           </p>
         </article>
         <article
-          class="intro__presentacion__articulo container flex-column flex-column-reverse flex-lg-row 
-          justify-content-center align-items-center"
+          class="intro__presentacion__articulo container flex-column flex-column-reverse flex-lg-row justify-content-center align-items-center"
         >
           <p class="intro__presentacion__articulo__descripcion izquierdo">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa,
@@ -156,7 +170,7 @@
             distinctio odio voluptates, maiores impedit esse illum aperiam hic
             eum quis quidem, incidunt fuga quam!
           </p>
-          
+
           <img
             src="./multimedia/img/jurassic_logos.png"
             alt=""

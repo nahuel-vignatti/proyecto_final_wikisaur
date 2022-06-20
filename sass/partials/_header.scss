@@ -29,10 +29,7 @@ header {
       opacity: 0;
     }
   }
-  nav div ul li a {
-    font-family: dinofont;
-     
-  }
+
   nav div ul li {
     text-align: center;
   }
@@ -43,4 +40,8 @@ header {
   a:visited {
     text-decoration: none;
   }
-  
+
+  body header nav .dropdown-center{
+    display: none;
+
+  }

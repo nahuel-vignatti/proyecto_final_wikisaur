@@ -104,15 +104,15 @@ header {
   100% {
     opacity: 0; } }
 
-nav div ul li a {
-  font-family: dinofont; }
-
 nav div ul li {
   text-align: center; }
 
 a:link,
 a:visited {
   text-decoration: none; }
+
+body header nav .dropdown-center {
+  display: none; }
 
 footer {
   margin-top: 3rem;
@@ -160,4 +160,8 @@ footer {
   main {
     width: 60%; }
   .titulo {
-    font-size: 3rem; } }
+    font-size: 3rem; }
+  body header nav .navbar-nav {
+    display: none; }
+  body header nav .dropdown-center {
+    display: block; } }
