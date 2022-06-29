@@ -8,67 +8,6 @@ html {
 
 body {
   min-height: 100vh;
-  background-image: url("../multimedia/img/dinobackgroundlong.jpg");
-  background-size: cover;
-}
-
-.intro {
-  margin-top: 10rem;
-  width: 80%;
-  background-color: map-get($estilos , colorfondo );
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.514), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-  &__parrafo {
-    margin-top: 1rem;
-
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 1rem;
-    font-size: 2rem;
-    margin-bottom: 10rem;
-    text-align: center;
-    align-content: center;
-  }
-
-  &__presentacion__articulo {
-    @include flexi(flex,row);
-    width: 80%;
-    margin-bottom: 3rem;
-    gap: 4rem;
-    justify-content: center;
-
-    &__descripcion {
-      width: 60%;
-      font-size: 2em;
-    }
-    &_img {
-      width: 100%;
-      height: auto;
-    }
-  }
-}
-.descripcion {
-  @include flexi(flex,column);
-  &__parrafo {
-    margin-top: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 1rem;
-    font-size: 1.6rem;
-  }
-  &__cuadro {
-    padding: 2rem;
-    margin-left: 1rem;
-    border-radius: 1rem;
-    @include flexi(flex,row);
-    flex-wrap: wrap;
-    height: auto;
-    gap: 2rem;
-    justify-content: space-around;
-    &__img {
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.514),
-        0 6px 20px 0 rgba(0, 0, 0, 0.5);
-      transition: all 1s;
-      width: 100%; /* con esto las imagenes son responsive, se achican al achicar el sitio*/
-      max-width: 35rem;
-      height: auto;
-    }
-  }
+  // background-image: url("../multimedia/img/dinobackgroundlong.jpg");
+  // background-size: cover;
 }
