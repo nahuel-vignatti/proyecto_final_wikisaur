@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
 html {
   font-size: 62.5%;
@@ -8,6 +9,13 @@ html {
 
 body {
   min-height: 100vh;
-  // background-image: url("../multimedia/img/dinobackgroundlong.jpg");
-  // background-size: cover;
+  background: #212121;
+  overflow-x: hidden;
+  
+}
+
+main{
+  margin-top: 5rem;
+  @include flexi(column);
+
 }

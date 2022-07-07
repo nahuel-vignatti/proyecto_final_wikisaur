@@ -1,8 +1,0 @@
-.peliculas {
-  @include flexi(flex,column);
-
-    align-items: center;
-  }
-  .intro__tituloscifi{
-    @extend .titulos_estilo;
-}

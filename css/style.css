@@ -1,14 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,600");
 @font-face {
   font-family: dinofont;
   src: url("../fonts/dinofont.ttf"); }
 
-.titulos_estilo, .intro__titulodinosaurs, .intro__titulohistory, .intro__titulohome, .intro__titulopaleontology, .intro__tituloscifi {
-  font-family: "Quicksand", sans-serif;
-  font-size: 6rem;
+.titulos_estilo {
+  font-family: "Titillium Web";
+  font-size: 15rem;
   margin: 2rem 0;
-  color: #135248;
-  text-align: center; }
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 8px white,2px 2px 8px white,2px 2px 8px white; }
+
+.img_responsive, .intro__img {
+  width: 100%;
+  height: auto; }
 
 * {
   margin: 0;
@@ -19,149 +25,157 @@ html {
 
 body {
   min-height: 100vh;
-  background-image: url("../multimedia/img/dinobackgroundlong.jpg");
-  background-size: cover; }
+  background: #212121;
+  overflow-x: hidden; }
 
-.intro {
-  margin-top: 10rem;
-  width: 80%;
-  background-color: rgba(95, 158, 160, 0.514);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.514), 0 6px 20px 0 rgba(0, 0, 0, 0.5); }
-  .intro__parrafo {
-    margin-top: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 1rem;
-    font-size: 2rem;
-    margin-bottom: 10rem;
-    text-align: center;
-    align-content: center; }
-  .intro__presentacion__articulo {
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    margin-bottom: 3rem;
-    gap: 4rem;
-    justify-content: center; }
-    .intro__presentacion__articulo__descripcion {
-      width: 60%;
-      font-size: 2em; }
-    .intro__presentacion__articulo_img {
-      width: 100%;
-      height: auto; }
-
-.descripcion {
-  display: flex;
-  flex-direction: column; }
-  .descripcion__parrafo {
-    margin-top: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 1rem;
-    font-size: 1.6rem; }
-  .descripcion__cuadro {
-    padding: 2rem;
-    margin-left: 1rem;
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: auto;
-    gap: 2rem;
-    justify-content: space-around; }
-    .descripcion__cuadro__img {
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.514), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-      transition: all 1s;
-      width: 100%;
-      /* con esto las imagenes son responsive, se achican al achicar el sitio*/
-      max-width: 35rem;
-      height: auto; }
-
-.descripcion__cuadro__img:hover {
-  filter: none; }
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 5rem;
-  background-color: rgba(95, 158, 160, 0.514); }
-
-.logo_sitio {
-  display: none;
-  animation-duration: 1s;
-  animation-name: aparecer;
-  animation-iteration-count: 6;
-  animation-direction: alternate; }
-
-@keyframes aparecer {
-  0% {
-    opacity: 1; }
-  25% {
-    opacity: 0.75; }
-  50% {
-    opacity: 0.5; }
-  75% {
-    opacity: 0.25; }
-  100% {
-    opacity: 0; } }
-
-nav div ul li {
-  text-align: center; }
-
-a:link,
-a:visited {
-  text-decoration: none; }
-
-body header nav .dropdown-center {
-  display: none; }
-
-footer {
-  margin-top: 3rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem; }
-
-.derecho {
-  padding-left: 1rem;
-  border-left: solid rgba(0, 0, 0, 0.3) 4px; }
-
-.izquierdo {
-  padding-right: 1rem;
-  border-right: solid rgba(0, 0, 0, 0.3) 4px; }
-
-.peliculas {
+main {
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center; }
 
-@media screen and (max-width: 950px) {
-  /*esto solo lo hago por los videos */
-  .peliculas__video {
-    width: auto;
-    height: auto; }
-  body {
-    background-image: url("../multimedia/img/dinobackgroundmobile.jpg");
-    background-size: cover; }
-  main {
-    background: none !important;
-    box-shadow: none !important; }
-  .intro__parrafo {
-    font-size: 1.5rem; }
-  .intro__presentacion__articulo__descripcion {
-    width: 60%;
-    font-size: 1.5rem; }
-  .intro__presentacion__articulo_img {
-    width: 60%;
-    height: auto; } }
+header {
+  padding-top: 1rem; }
 
-@media screen and (max-width: 480px) {
-  .intro__presentacion__articulo {
-    flex-direction: column; }
-  main {
-    width: 60%; }
-  .titulo {
+.barra__lista {
+  font-family: "Titillium Web";
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem; }
+  .barra__lista * {
+    box-sizing: border-box;
+    transition: all 0.35s ease; }
+  .barra__lista li {
+    list-style: outside none none;
+    padding: 0;
+    text-align: center; }
+  .barra__lista a {
+    padding: 0.5em 0.8em;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    text-decoration: none;
     font-size: 3rem; }
-  body header nav .navbar-nav {
-    display: none; }
-  body header nav .dropdown-center {
-    display: block; } }
+  .barra__lista a::after {
+    content: "";
+    height: 2.5rem;
+    width: 2.5rem;
+    position: absolute;
+    transition: all 0.35s ease;
+    opacity: 0;
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid #2e640f;
+    border-left: 3px solid #3e8914;
+    transform: translate(100%, -50%); }
+  .barra__lista a::before {
+    content: "";
+    height: 2.5rem;
+    width: 2.5rem;
+    position: absolute;
+    transition: all 0.35s ease;
+    opacity: 0;
+    right: 0;
+    top: 0;
+    border-top: 3px solid #3e8914;
+    border-right: 3px solid #2e640f;
+    transform: translate(-100%, 50%); }
+  .barra__lista a:hover:after {
+    transform: translate(0, 0);
+    opacity: 1; }
+  .barra__lista a:hover:before {
+    transform: translate(0, 0);
+    opacity: 1; }
+  .barra__lista a:hover {
+    color: #3da35d; }
+
+nav ul li .barra__lista__logo {
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.103);
+  transition: all 1s; }
+
+nav ul li .barra__lista__logo:hover {
+  text-shadow: 2px 2px 3px whitesmoke,4px 4px 6px whitesmoke,4px 4px 8px whitesmoke;
+  font-weight: 900; }
+
+@media screen and (max-width: 768px) {
+  .barra__lista a {
+    padding: 0.5em 0.8em;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 2rem; }
+  .barra__lista a::after {
+    content: "";
+    height: 1.5rem;
+    width: 1.5rem; }
+  .barra__lista a::before {
+    content: "";
+    height: 1.5rem;
+    width: 1.5rem; } }
+
+@media screen and (max-width: 576px) {
+  .barra__lista a {
+    padding: 0.5em 0.8em;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 2rem; }
+  .barra__lista a::after {
+    content: "";
+    height: 1.4rem;
+    width: 1.4rem; }
+  .barra__lista a::before {
+    content: "";
+    height: 1.4rem;
+    width: 1.4rem; } }
+
+.intro {
+  gap: 10rem;
+  background-color: #414141;
+  padding: 2rem 0;
+  text-shadow: 0 0 0.3rem whitesmoke;
+  width: 100vw;
+  font-size: 4rem;
+  border-radius: 1rem; }
+  .intro__img {
+    max-width: 400px; }
+  .intro__parrafo {
+    padding-right: 5rem; }
+    .intro__parrafo__titulo {
+      font-size: 2em;
+      font-style: italic;
+      font-weight: bolder;
+      color: whitesmoke; }
+    .intro__parrafo__subtitulo {
+      font-size: 0.5em;
+      font-style: italic;
+      color: whitesmoke; }
+
+.secciones {
+  margin-top: 5rem; }
+
+@media screen and (max-width: 1200px) {
+  .intro {
+    font-size: 3.5rem; }
+    .intro__img {
+      max-width: 300px; }
+    .intro__parrafo {
+      padding-right: 0;
+      padding-bottom: 2rem; } }
+
+@media screen and (max-width: 768px) {
+  .intro {
+    font-size: 3rem; }
+    .intro__img {
+      max-width: 300px; }
+    .intro__parrafo {
+      text-align: center;
+      padding-right: 0;
+      padding-bottom: 2rem; } }
+
+@media screen and (max-width: 576px) {
+  .intro {
+    font-size: 2rem; }
+    .intro__img {
+      max-width: 200px; }
+    .intro__parrafo {
+      padding-right: 0;
+      padding-bottom: 2rem; } }

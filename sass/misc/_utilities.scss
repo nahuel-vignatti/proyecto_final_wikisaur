@@ -1,19 +1,28 @@
 //map con estilos bastante utilizados
 $estilos:(
-    colortitulo:rgb(19, 82, 72),
+    colortitulo:white,
     colorfondo: rgba(95, 158, 160, 0.514)
 );
 //clase para hacer extend, todos los titulos tendran el mismo formato
 .titulos_estilo{
-    font-family: "Quicksand", sans-serif;
-    font-size: 6rem;
+    font-family: "Titillium Web";
+    font-size: 15rem;
     margin: 2rem 0;
     color: map-get($estilos , colortitulo );
     text-align: center;
+    text-shadow: 2px 2px 8px white,2px 2px 8px white,2px 2px 8px white;
+}
+.img_responsive{
+    width: 100%;
+    height: auto;
 }
 
+
 //mixin para determinar el tipo de flex
-@mixin flexi ($disp,$dire){
-    display: $disp;
+@mixin flexi($dire:row,$justi:center,$alig:center){
+    display: flex;
     flex-direction: $dire;
+    justify-content: $justi;
+    align-items: $alig;
 }
+
