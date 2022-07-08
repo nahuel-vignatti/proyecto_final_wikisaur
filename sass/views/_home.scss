@@ -35,7 +35,12 @@
     
 }
 .definicion{
-    height: 500px;
+    margin-top: 15rem;
+    margin-bottom: 6rem;
+    width: 90%;
+    font-size: 3rem;
+    text-align: center;
+    color: whitesmoke;
 }
 .secciones{
     margin-top: 5rem;
@@ -57,8 +62,9 @@
     &__articulo{
          @include flexi(column);
          gap: 1rem;
+         font-size: 1em;
         // width: 25%;
-        height: 80%;
+         height: 80%;
         
 
         &__img{
@@ -69,7 +75,7 @@
         &__descrpcion{
             text-align: center;
             font-size: 1.5em;
-            height: 5em;
+            height: 6em;
             
         }
         
@@ -98,12 +104,19 @@
         font-size: 3.5rem;
         &__img{
             
-            max-width: 300px;
+            max-width: 30rem;
         }
         &__parrafo{
             padding-right: 0;
             padding-bottom: 2rem;
         }
+    }
+    .secciones{
+        font-size: 0.9rem;
+        &__articulo__boton{
+            margin-top: 1.5em;
+        }
+       
     }
 
 }
@@ -112,13 +125,17 @@
         font-size: 3rem;
         &__img{
             
-            max-width: 300px;
+            max-width: 30rem;
         }
         &__parrafo{
             text-align: center;
             padding-right: 0;
             padding-bottom: 2rem;
         }
+    }
+    .secciones{
+        font-size: 0.8rem;
+       
     }
 
 }
@@ -134,6 +151,10 @@
             padding-right: 0;
             padding-bottom: 2rem;
         }
+    }
+    .secciones{
+        font-size: 0.7rem;
+       
     }
 
 }

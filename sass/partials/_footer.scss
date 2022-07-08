@@ -1,0 +1,46 @@
+.pie {
+  //background-color: rgb(65, 65, 65);
+  margin-top: 2rem;
+  
+  width: 100vw;
+  
+  font-size: 1rem;
+  &__logo {
+    @extend .img_responsive;
+    max-width: 10em;
+  }
+  &__firma {
+    color: whitesmoke;
+    text-shadow: 0px 0px 4px whitesmoke;
+    font-size: 1.5em;
+  }
+  &__social {
+    margin-right: 2rem;
+    color: whitesmoke;
+    & a{
+        
+        &:nth-child(1){
+            margin-right: 2em;
+        }
+        &:nth-child(2){
+            margin-right: 2em;
+        }
+    }
+
+    &__icon {
+      color: whitesmoke;
+      font-size: 4em;
+      text-shadow: 0px 0px 4px whitesmoke;
+    }
+    &__icon:hover{
+        color: rgb(145, 135, 135);
+    }
+  }
+}
+@media screen and (max-width: 768px){
+    .pie{
+        &__social{
+            margin-right: 0;
+        }
+    }
+}
