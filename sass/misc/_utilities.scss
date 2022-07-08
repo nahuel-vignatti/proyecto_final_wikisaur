@@ -19,10 +19,11 @@ $estilos:(
 
 
 //mixin para determinar el tipo de flex
-@mixin flexi($dire:row,$justi:center,$alig:center){
+@mixin flexi($dire:row,$justi:center,$alig:center,$alig2:center){
     display: flex;
     flex-direction: $dire;
     justify-content: $justi;
     align-items: $alig;
+    align-content: $alig2;
 }
 
