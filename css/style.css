@@ -126,7 +126,9 @@ nav ul li .barra__lista__logo:hover {
   .barra__lista a::before {
     content: "";
     height: 1.4rem;
-    width: 1.4rem; } }
+    width: 1.4rem; }
+  nav ul li .barra__lista__logo {
+    font-size: 3rem; } }
 
 .pie {
   margin-top: 2rem;
@@ -254,7 +256,9 @@ nav ul li .barra__lista__logo:hover {
       padding-right: 0;
       padding-bottom: 2rem; }
   .secciones {
-    font-size: 0.8rem; } }
+    font-size: 0.8rem; }
+  .definicion {
+    font-size: 2.5rem; } }
 
 @media screen and (max-width: 576px) {
   .intro {
