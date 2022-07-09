@@ -269,4 +269,7 @@ nav ul li .barra__lista__logo:hover {
       padding-right: 0;
       padding-bottom: 2rem; }
   .secciones {
-    font-size: 0.7rem; } }
+    font-size: 0.7rem; }
+  .definicion {
+    margin-top: 5rem;
+    margin-bottom: 0; } }
