@@ -37,7 +37,7 @@
 .definicion{
     margin-top: 15rem;
     margin-bottom: 6rem;
-    width: 90%;
+    width: 80%;
     font-size: 3rem;
     text-align: center;
     color: whitesmoke;
@@ -70,6 +70,7 @@
         &__img{
             @extend .img_responsive;
             max-width: 10em;
+            
             
         }
         &__descrpcion{

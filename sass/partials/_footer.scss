@@ -8,6 +8,8 @@
   &__logo {
     @extend .img_responsive;
     max-width: 10em;
+    filter: invert(100%);
+    
   }
   &__firma {
     color: whitesmoke;

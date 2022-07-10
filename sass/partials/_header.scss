@@ -1,7 +1,5 @@
 header {
-  padding-top: 1rem;
-
- 
+  padding-top: 1rem; 
 }
 .barra__lista {
   font-family: "Titillium Web";
@@ -28,7 +26,7 @@ header {
     color: rgba(255, 255, 255, 0.5);
     position: relative;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   & a::after {
@@ -111,7 +109,7 @@ nav ul li .barra__lista__logo:hover{
     & a {
       padding: 0.5em 0.8em;
       color: rgba(255, 255, 255, 0.5);
-      font-size: 2rem;
+      font-size: 1.2rem;
     }
 
     & a::after {
