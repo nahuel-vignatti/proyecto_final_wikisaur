@@ -159,6 +159,64 @@ nav ul li .barra__lista__logo:hover {
   .pie__social {
     margin-right: 0; } }
 
+.especie {
+  width: 90%;
+  font-size: 1rem; }
+  .especie__titulo {
+    font-family: "Titillium Web";
+    color: whitesmoke;
+    margin-bottom: 1rem;
+    font-size: 3em;
+    padding-left: 3em; }
+  .especie__data {
+    background-color: #414141;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4em 2em;
+    font-size: 1em;
+    background-color: rgba(255, 255, 255, 0.671);
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px #535353, 2px 2px 6px #535353; }
+    .especie__data__info {
+      font-size: 1.5em; }
+    .especie__data__tabla {
+      background-color: #212121;
+      font-size: 1em;
+      color: whitesmoke;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      max-height: 35em; }
+      .especie__data__tabla__imagen {
+        width: 100%;
+        height: auto; }
+      .especie__data__tabla__titulo {
+        font-size: 1.5em;
+        text-align: center;
+        border-bottom: 0.1rem solid gray;
+        align-content: center;
+        align-items: center;
+        margin-bottom: 0.5em; }
+      .especie__data__tabla__fila {
+        padding-top: 0.6em;
+        font-size: 1em;
+        border-bottom: 1px solid gray; }
+        .especie__data__tabla__fila__propiedad {
+          font-size: 1.2em;
+          font-weight: bolder; }
+        .especie__data__tabla__fila__info {
+          font-size: 1.2em; }
+      .especie__data__tabla__fila:hover {
+        background-color: rgba(128, 128, 128, 0.404); }
+
+@media screen and (max-width: 992px) {
+  .especie {
+    font-size: 0.8rem; } }
+
+@media screen and (max-width: 576px) {
+  .especie {
+    font-size: 0.7rem; }
+  .especie__data__tabla__fila {
+    padding-top: 0; } }
+
 .intro {
   gap: 10rem;
   background-color: #414141;
