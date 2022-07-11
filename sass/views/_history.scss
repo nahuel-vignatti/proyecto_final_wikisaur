@@ -32,18 +32,21 @@
 .cometa {
   max-width: 80rem;
 }
-@media screen and (max-width: 1024) {
+@media screen and (max-width: 1024px) {
   .parrafo {
     font-size: 0.8rem;
   }
 }
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
   .parrafo {
     font-size: 0.7rem;
     
   }
 }
-@media screen and (max-width: 576) {
+@media screen and (max-width: 576px) {
+  .historia__titulo {
+    font-size: 3rem;
+  }
   .parrafo {
     font-size: 0.6rem;
   }
