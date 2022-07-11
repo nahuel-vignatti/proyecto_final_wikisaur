@@ -1,0 +1,51 @@
+.historia__titulo{
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    color: whitesmoke;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 0 0 0.3rem whitesmoke;
+}
+.parrafo{
+    font-size: 1rem;
+    width: 90%;
+    &__titulo{
+        font-family: "Titillium Web";
+        color: whitesmoke;
+        margin-bottom: 1rem;
+        font-size: 3em;
+        padding-left: 3em;
+        &__info{
+            background-color: rgb(65, 65, 65);
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 4em 2em;
+            font-size: 1.5em;
+            background-color: rgba(255, 255, 255, 0.671);
+            border-radius: 5px;
+            box-shadow: 2px 2px 6px rgb(83, 83, 83), 2px 2px 6px rgb(83, 83, 83);
+            &__img{
+                @extend .img_responsive;
+                
+            }
+            &__texto{}
+        }
+    }
+}
+.cometa{
+    max-width: 80rem;
+}
+@media screen and (max-width: 1024){
+    .parrafo{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 768){
+    .parrafo{
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width: 576){
+    .parrafo{
+        font-size: 0.6rem;
+    }
+}

@@ -12,7 +12,7 @@
   text-align: center;
   text-shadow: 2px 2px 8px white,2px 2px 8px white,2px 2px 8px white; }
 
-.img_responsive, .pie__logo, .intro__img, .secciones__articulo__img {
+.img_responsive, .pie__logo, .parrafo__titulo__info__img, .intro__img, .secciones__articulo__img {
   width: 100%;
   height: auto; }
 
@@ -159,9 +159,18 @@ nav ul li .barra__lista__logo:hover {
   .pie__social {
     margin-right: 0; } }
 
+.dinosaurios__titulo {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  color: whitesmoke;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 0 0 0.3rem whitesmoke; }
+
 .especie {
   width: 90%;
-  font-size: 1rem; }
+  font-size: 1rem;
+  margin-bottom: 3rem; }
   .especie__titulo {
     font-family: "Titillium Web";
     color: whitesmoke;
@@ -212,10 +221,53 @@ nav ul li .barra__lista__logo:hover {
     font-size: 0.8rem; } }
 
 @media screen and (max-width: 576px) {
+  .dinosaurios__titulo {
+    font-size: 3rem; }
   .especie {
     font-size: 0.7rem; }
   .especie__data__tabla__fila {
     padding-top: 0; } }
+
+.historia__titulo {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  color: whitesmoke;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 0 0 0.3rem whitesmoke; }
+
+.parrafo {
+  font-size: 1rem;
+  width: 90%; }
+  .parrafo__titulo {
+    font-family: "Titillium Web";
+    color: whitesmoke;
+    margin-bottom: 1rem;
+    font-size: 3em;
+    padding-left: 3em; }
+    .parrafo__titulo__info {
+      background-color: #414141;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 4em 2em;
+      font-size: 1.5em;
+      background-color: rgba(255, 255, 255, 0.671);
+      border-radius: 5px;
+      box-shadow: 2px 2px 6px #535353, 2px 2px 6px #535353; }
+
+.cometa {
+  max-width: 80rem; }
+
+@media screen and (max-width: 1024) {
+  .parrafo {
+    font-size: 0.8rem; } }
+
+@media screen and (max-width: 768) {
+  .parrafo {
+    font-size: 0.7rem; } }
+
+@media screen and (max-width: 576) {
+  .parrafo {
+    font-size: 0.6rem; } }
 
 .intro {
   gap: 10rem;
