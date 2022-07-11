@@ -8,7 +8,7 @@
   text-align: center;
   text-shadow: 2px 2px 8px white,2px 2px 8px white,2px 2px 8px white; }
 
-.img_responsive, .pie__logo, .parrafo__titulo__info__img, .intro__img, .secciones__articulo__img {
+.img_responsive, .pie__logo, .parrafo__info__img, .intro__img, .secciones__articulo__img, .parrafopaleo__info__img {
   width: 100%;
   height: auto; }
 
@@ -173,7 +173,7 @@ nav ul li .barra__lista__logo:hover {
     color: whitesmoke;
     margin-bottom: 1rem;
     font-size: 3em;
-    padding-left: 3em; }
+    padding-left: .5em; }
   .especie__data {
     font-family: 'Maven Pro', sans-serif;
     background-color: #414141;
@@ -235,21 +235,21 @@ nav ul li .barra__lista__logo:hover {
 
 .parrafo {
   font-size: 1rem;
-  width: 90%; }
+  width: 90%;
+  margin-bottom: 2rem; }
   .parrafo__titulo {
     font-family: "Titillium Web";
     color: whitesmoke;
     margin-bottom: 1rem;
     font-size: 3em;
-    padding-left: 3em; }
-    .parrafo__titulo__info {
-      font-family: 'Maven Pro', sans-serif;
-      background-color: #414141;
-      padding: 4em 2em;
-      font-size: 1.5em;
-      background-color: rgba(255, 255, 255, 0.671);
-      border-radius: 5px;
-      box-shadow: 2px 2px 6px #535353, 2px 2px 6px #535353; }
+    padding-left: 0.5em; }
+  .parrafo__info {
+    font-family: "Maven Pro", sans-serif;
+    padding: 2em 2em;
+    font-size: 1.5em;
+    background-color: rgba(255, 255, 255, 0.671);
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px #535353, 2px 2px 6px #535353; }
 
 .cometa {
   max-width: 80rem; }
@@ -392,6 +392,47 @@ nav ul li .barra__lista__logo:hover {
   .definicion {
     margin-top: 5rem;
     margin-bottom: 0; } }
+
+.paleo__titulo {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  color: whitesmoke;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 0 0 0.3rem whitesmoke; }
+
+.parrafopaleo {
+  font-size: 1rem;
+  width: 90%;
+  margin-bottom: 2rem; }
+  .parrafopaleo__titulo {
+    font-family: "Titillium Web";
+    color: whitesmoke;
+    margin-bottom: 1rem;
+    font-size: 3em;
+    padding-left: 0.5em; }
+  .parrafopaleo__info {
+    font-family: "Maven Pro", sans-serif;
+    padding: 2em 2em;
+    font-size: 1.5em;
+    background-color: rgba(255, 255, 255, 0.671);
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px #535353, 2px 2px 6px #535353; }
+
+.dino1 {
+  max-width: 70rem; }
+
+@media screen and (max-width: 1024) {
+  .parrafo {
+    font-size: 0.8rem; } }
+
+@media screen and (max-width: 768) {
+  .parrafo {
+    font-size: 0.7rem; } }
+
+@media screen and (max-width: 576) {
+  .parrafo {
+    font-size: 0.6rem; } }
 
 .formcontacto {
   margin: 3rem 0;
