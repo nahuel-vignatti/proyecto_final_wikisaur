@@ -264,9 +264,7 @@ nav ul li .barra__lista__logo:hover {
 
 @media screen and (max-width: 576px) {
   .historia__titulo {
-    font-size: 3rem; }
-  .parrafo {
-    font-size: 0.6rem; } }
+    font-size: 3rem; } }
 
 .intro {
   gap: 10rem;
@@ -426,18 +424,18 @@ nav ul li .barra__lista__logo:hover {
 .dino1 {
   max-width: 70rem; }
 
-@media screen and (max-width: 1024) {
-  .parrafo {
+@media screen and (max-width: 1024px) {
+  .parrafopaleo {
     font-size: 0.8rem; } }
 
-@media screen and (max-width: 768) {
-  .parrafo {
+@media screen and (max-width: 768px) {
+  .parrafopaleo {
     font-size: 0.7rem; } }
 
-@media screen and (max-width: 576) {
-  .historia__titulo {
+@media screen and (max-width: 576px) {
+  .paleo__titulo {
     font-size: 3rem; }
-  .parrafo {
+  .parrafopaleo {
     font-size: 0.6rem; } }
 
 .formcontacto {
