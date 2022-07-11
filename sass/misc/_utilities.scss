@@ -1,18 +1,5 @@
-//map con estilos bastante utilizados
-$estilos:(
-    colortitulo:white,
-    colorfondo: rgba(95, 158, 160, 0.514)
-);
-//clase para hacer extend, todos los titulos tendran el mismo formato
-.titulos_estilo{
-    font-family: "Titillium Web";
-    font-size: 15rem;
-    margin: 2rem 0;
-    color: map-get($estilos , colortitulo );
-    text-align: center;
-    text-shadow: 2px 2px 8px white,2px 2px 8px white,2px 2px 8px white;
-}
-.img_responsive{
+
+.img_responsive{ //propiedad para hacer las imagenes responsive
     width: 100%;
     height: auto;
 }

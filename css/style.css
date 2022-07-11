@@ -1,13 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,600");
-.titulos_estilo {
-  font-family: "Titillium Web";
-  font-size: 15rem;
-  margin: 2rem 0;
-  color: white;
-  text-align: center;
-  text-shadow: 2px 2px 8px white,2px 2px 8px white,2px 2px 8px white; }
-
 .img_responsive, .pie__logo, .parrafo__info__img, .intro__img, .secciones__articulo__img, .parrafopaleo__info__img {
   width: 100%;
   height: auto; }
