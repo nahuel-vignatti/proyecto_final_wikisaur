@@ -384,8 +384,9 @@ nav ul li .barra__lista__logo:hover {
       padding-right: 0;
       padding-bottom: 2rem; }
   .secciones {
+    width: 80%;
     font-size: 0.9rem;
-    padding: 5rem 1rem; }
+    padding: 5rem 2rem; }
     .secciones__articulo__descripcion {
       height: 4em; }
     .secciones__articulo__boton {
