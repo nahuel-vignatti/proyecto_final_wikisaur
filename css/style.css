@@ -300,7 +300,7 @@ nav ul li .barra__lista__logo:hover {
 .secciones {
   font-family: 'Maven Pro', sans-serif;
   margin-top: 5rem;
-  padding: 5rem 5rem;
+  padding: 3rem 7rem 7rem 7rem;
   gap: 10rem;
   background-color: rgba(255, 255, 255, 0.719);
   border-radius: 1rem;
@@ -308,7 +308,6 @@ nav ul li .barra__lista__logo:hover {
   width: 90%; }
   .secciones__titulo {
     font-size: 3em;
-    margin-top: 1em;
     margin-bottom: 1.5em;
     text-align: center; }
   .secciones__articulo {
@@ -369,8 +368,10 @@ nav ul li .barra__lista__logo:hover {
       padding-right: 0;
       padding-bottom: 0; }
   .secciones {
-    font-size: 1rem;
-    padding: 0 5rem 2rem; }
+    font-size: 1.1rem;
+    padding: 5rem 2rem; }
+    .secciones__articulo__boton {
+      margin-top: 0em; }
   .definicion {
     font-size: 2.5rem; } }
 
@@ -384,7 +385,7 @@ nav ul li .barra__lista__logo:hover {
       padding-bottom: 2rem; }
   .secciones {
     font-size: 0.9rem;
-    padding: 0 5rem 1rem; }
+    padding: 5rem 1rem; }
     .secciones__articulo__descripcion {
       height: 4em; }
     .secciones__articulo__boton {

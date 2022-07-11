@@ -27,12 +27,7 @@
             color: whitesmoke;
             }
     }
-        // @extend .titulos_estilo;
-        // padding: 5rem 0 35rem;
-        // background-image: url("../multimedia/img/fondointro.png");
-        // background-size:contain;
-        // background-repeat: no-repeat;
-    
+
 }
 .definicion{
     font-family: 'Maven Pro', sans-serif;
@@ -46,7 +41,8 @@
 .secciones{
     font-family: 'Maven Pro', sans-serif;
     margin-top: 5rem;
-    padding: 5rem 5rem;
+    padding: 3rem 7rem 7rem 7rem;
+    
     gap:10rem;
     background-color: rgba(255, 255, 255, 0.719);
     border-radius: 1rem;
@@ -56,7 +52,7 @@
     // flex-wrap: wrap;
     &__titulo{
         font-size: 3em;
-        margin-top: 1em;
+        //margin-top: 1em;
         margin-bottom: 1.5em;
         text-align: center;
     }
@@ -140,9 +136,11 @@
         }
     }
     .secciones{
-        font-size: 1rem;
-        padding: 0 5rem 2rem;
-       
+        font-size: 1.1rem;
+        padding: 5rem 2rem;       
+        &__articulo__boton{
+            margin-top: 0em;
+        }
     }
     .definicion{
         font-size: 2.5rem;
@@ -165,7 +163,7 @@
     }
     .secciones{
         font-size: 0.9rem;
-        padding: 0 5rem 1rem;
+        padding:  5rem 1rem;
             &__articulo{
                 &__descripcion{
                     height: 4em;
