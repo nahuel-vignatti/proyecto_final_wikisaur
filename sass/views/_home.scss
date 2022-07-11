@@ -46,7 +46,7 @@
 .secciones{
     font-family: 'Maven Pro', sans-serif;
     margin-top: 5rem;
-    padding: 0 10rem 5rem;
+    padding: 5rem 5rem;
     gap:10rem;
     background-color: rgba(255, 255, 255, 0.719);
     border-radius: 1rem;
@@ -65,7 +65,6 @@
          @include flexi(column);
          gap: 1rem;
          font-size: 1em;
-        // width: 25%;
          height: 80%;
         
 
@@ -86,7 +85,7 @@
             font-size: 1.5em;
             font-weight: bolder;
             color: whitesmoke;
-            margin-top: 1em;
+            margin-top: 0.5;
             margin-bottom: 1rem;
             font-family: "Titillium Web";            
             text-transform: uppercase;
@@ -111,13 +110,17 @@
         }
         &__parrafo{
             padding-right: 0;
-            padding-bottom: 2rem;
+            padding-bottom: 0;
         }
     }
     .secciones{
-        font-size: 0.9rem;
+        font-size: 1rem;
+        padding: 3rem 5rem;
+        &__articulo__descripcion{
+            height: 7em;
+        }
         &__articulo__boton{
-            margin-top: 1.5em;
+            margin-top: 1em;
         }
        
     }
@@ -133,11 +136,12 @@
         &__parrafo{
             text-align: center;
             padding-right: 0;
-            padding-bottom: 2rem;
+            padding-bottom: 0;
         }
     }
     .secciones{
-        font-size: 0.8rem;
+        font-size: 1rem;
+        padding: 0 5rem 2rem;
        
     }
     .definicion{
@@ -160,7 +164,17 @@
         }
     }
     .secciones{
-        font-size: 0.7rem;
+        font-size: 0.9rem;
+        padding: 0 5rem 1rem;
+            &__articulo{
+                &__descripcion{
+                    height: 4em;
+                }
+                &__boton{
+                    margin-top: 0em;
+                }
+            }
+
        
     }
     .definicion{
